@@ -36,9 +36,4 @@ UBYTE Dynamic_GIF_Example(UWORD Panel_Width, UWORD Panel_Height, UDOUBLE Init_Ta
 
 UBYTE Check_FrameRate_Example(UWORD Panel_Width, UWORD Panel_Height, UDOUBLE Target_Memory_Addr, UBYTE BitsPerPixel);
 
-UBYTE TouchPanel_ePaper_Example(UWORD Panel_Width, UWORD Panel_Height, UDOUBLE Init_Target_Memory_Addr);
-
-void Factory_Test_Only(IT8951_Dev_Info Dev_Info, UDOUBLE Init_Target_Memory_Addr);
-void Color_Test(IT8951_Dev_Info Dev_Info, UDOUBLE Init_Target_Memory_Addr);
-
 #endif

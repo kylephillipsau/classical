@@ -1,19 +1,17 @@
-/*****************************************************************************
-* | File      	:   Readme_EN.txt
-* | Author      :   Waveshare team
-* | Function    :   Help with use
-* | Info        :
-*----------------
-* |	This version:   V1.0
-* | Date        :   2020-08-25
-* | Info        :   Here is an English version of the documentation for your quick use.
-******************************************************************************/
+# Macintosh Classic II E-Ink Calendar Project
+This project uses a 9.7" Waveshare E-Ink Display and a Raspberry Pi 4.
+
+To run the binary, execute
+```shell
+sudo ./epd -1.86 0
+```
+
 This document is to help you use this routine.
-For ease of maintenance and development, we have integrated all the parallel epd Raspberry Pie example programs into this project.
+For ease of maintenance and development, we have integrated all the parallel EPD Raspberry Pi example programs into this project.
 Here is a brief description of the use of this project.
 
 1. Basic information:
-This routine is verified using the driver module that comes with the epd, 
+This routine is verified using the driver module that comes with the EPD, 
 and you can view some test functions in the project examples/;
 
 
